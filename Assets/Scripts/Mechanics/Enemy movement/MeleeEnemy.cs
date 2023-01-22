@@ -5,9 +5,6 @@ public class MeleeEnemy : MonoBehaviour
     #region Variables
     public EnemyStats stats;  // Takes variables from scriptable object
     
-    [SerializeField]
-    [Tooltip("Defines how fast this object attacks.")]
-    private float attackCooldown;
     private float cooldownTimer = Mathf.Infinity;
 
     [SerializeField]
@@ -26,10 +23,10 @@ public class MeleeEnemy : MonoBehaviour
 
     #endregion
 
-    private void Awake()
+    /*private void Awake()
     {
         //anim = GetComponent<Animator>();  // ----------------------------------I  Place holder  I---------------------------------- \\
-    }
+    }*/
 
     private void Update()
     {
@@ -38,13 +35,12 @@ public class MeleeEnemy : MonoBehaviour
         if (PlayerInSight())
         {
             // Attack only when player is in sight
-            if (cooldownTimer >= attackCooldown)
+            if (cooldownTimer >= stats.attackCooldown)
             {
                 cooldownTimer= 0;
                 //anim.SetTrigger(""); // ----------------------------------I  Place holder  I---------------------------------- \\
             }
         }
-        
     }
 
     private bool PlayerInSight()
@@ -58,7 +54,7 @@ public class MeleeEnemy : MonoBehaviour
         //{
         //    playerHealth = stats.health; // ----------------------------------I  Place holder  I---------------------------------- \\
         //}
-
+        
         return hit.collider != null; // Returns true if raycast found player
     }
 
