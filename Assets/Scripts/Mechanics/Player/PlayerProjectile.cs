@@ -14,7 +14,7 @@ public class PlayerProjectile : MonoBehaviour
     }
 
     //Destroy the projectile after a collision
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D Enemy)
     {
         Destroy(gameObject);
     }
