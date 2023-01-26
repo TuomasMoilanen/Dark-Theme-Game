@@ -4,7 +4,7 @@ public class MeleeEnemy : MonoBehaviour
 {
     #region Variables
     public EnemyStats stats;  // Takes variables from scriptable object
-    
+
     private float cooldownTimer = Mathf.Infinity;
 
     [SerializeField]
@@ -18,8 +18,15 @@ public class MeleeEnemy : MonoBehaviour
     [SerializeField]
     [Tooltip("Defines player layer to be used in raycast")]
     private LayerMask playerLayer;
+
+    [SerializeField]
+    private int damage = 1;
+
+    private PlayerHealth playerHealth;
+
+
     //private Animator anim;    // ----------------------------------I  Place holder  I---------------------------------- \\ > How to tie it together if needed https://youtu.be/d002CljR-KU?t=1070 
-    //private int playerHealth; // ----------------------------------I  Place holder  I---------------------------------- \\
+
 
     #endregion
 
@@ -37,7 +44,7 @@ public class MeleeEnemy : MonoBehaviour
             // Attack only when player is in sight
             if (cooldownTimer >= stats.attackCooldown)
             {
-                cooldownTimer= 0;
+                cooldownTimer = 0;
                 //anim.SetTrigger(""); // ----------------------------------I  Place holder  I---------------------------------- \\
             }
         }
@@ -50,11 +57,12 @@ public class MeleeEnemy : MonoBehaviour
             new Vector3(boxCollider.bounds.size.x * stats.range, boxCollider.bounds.size.y, boxCollider.bounds.size.z),
             0, Vector2.left, 0, playerLayer);
 
-        //if (hit.collider != null)
-        //{
-        //    playerHealth = stats.health; // ----------------------------------I  Place holder  I---------------------------------- \\
-        //}
-        
+        if (hit.collider != null)
+        {
+            playerHealth = hit.transform.GetComponent<PlayerHealth>();
+
+        }
+
         return hit.collider != null; // Returns true if raycast found player
     }
 
@@ -62,11 +70,14 @@ public class MeleeEnemy : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(boxCollider.bounds.center + transform.right * stats.range * transform.localScale.x * colliderDistance,
-            new Vector3 (boxCollider.bounds.size.x * stats.range, boxCollider.bounds.size.y, boxCollider.bounds.size.z));
+            new Vector3(boxCollider.bounds.size.x * stats.range, boxCollider.bounds.size.y, boxCollider.bounds.size.z));
     }
 
-    //private void DamagePlayer() // ----------------------------------I  Place holder  I---------------------------------- \\
-    //{
-    //    // Damage player health
-    //}
+    private void DamagePlayer() // NOTE! The function still has to be activated within the animator!
+    {
+        if (PlayerInSight())
+        {
+            playerHealth.TakeDamage(damage); // Deals damage integer's amount of damage to the player
+        }
+    }
 }

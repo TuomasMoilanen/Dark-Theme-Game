@@ -139,6 +139,7 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
+  damage: 1
 --- !u!50 &642175913178101463
 Rigidbody2D:
   serializedVersion: 4
