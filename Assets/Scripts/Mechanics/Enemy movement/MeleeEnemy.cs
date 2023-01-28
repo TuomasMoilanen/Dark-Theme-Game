@@ -25,15 +25,16 @@ public class MeleeEnemy : MonoBehaviour
     private PlayerHealth playerHealth;
 
 
-    //private Animator anim;    // ----------------------------------I  Place holder  I---------------------------------- \\ > How to tie it together if needed https://youtu.be/d002CljR-KU?t=1070 
+    private Animator anim;    // How to tie it together if needed https://youtu.be/d002CljR-KU?t=1070 
 
 
     #endregion
 
-    /*private void Awake()
+    private void Awake()
     {
-        //anim = GetComponent<Animator>();  // ----------------------------------I  Place holder  I---------------------------------- \\
-    }*/
+        anim = GetComponent<Animator>();
+        stats.health = 1; // Sets the health int for this enemy
+    }
 
     private void Update()
     {
@@ -45,7 +46,7 @@ public class MeleeEnemy : MonoBehaviour
             if (cooldownTimer >= stats.attackCooldown)
             {
                 cooldownTimer = 0;
-                //anim.SetTrigger(""); // ----------------------------------I  Place holder  I---------------------------------- \\
+                anim.SetTrigger("meleeAttack");
             }
         }
     }
