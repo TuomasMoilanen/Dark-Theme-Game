@@ -6,14 +6,18 @@ public class CameraScript : MonoBehaviour
     [Header("Player location")]
     [Tooltip("Defined player game object")]
     public GameObject player;
+    private Vector3 playerPosition;
 
+    [Header("Camera offset settings")]
     [SerializeField] 
     [Tooltip("Time delay when camera moves")]
-    private float timeOffset;
+    private float OffsetSmoothing;
 
-    [SerializeField]
-    [Tooltip("Defined offset from player")]
-    private Vector2 posOffset;
+    [Tooltip("Default offset value")]
+    public Vector2 defaultOffset;
+
+    [Tooltip("Debugging uses only. Current set offset.")]
+    public Vector2 currentOffset;
 
     [SerializeField]
     [Tooltip("Disable camera boundries")]
@@ -41,26 +45,27 @@ public class CameraScript : MonoBehaviour
 
     #endregion
 
-    void Update()
+    private void Awake()
     {
-        Vector3 startPos = transform.position;  // Cam Start pos
-        Vector3 endPos = player.transform.position; // Players current pos
-        endPos.x += posOffset.x;
-        endPos.y += posOffset.y;
-        endPos.z = -10;
+        currentOffset = defaultOffset; // possible issues with main menu?
+    }
+
+    void LateUpdate()
+    {
+            Vector3 startPos = transform.position;  // Cam Start pos
+            Vector3 endPos = player.transform.position; // Players current pos
+            endPos.x += currentOffset.x;   // cam end positions
+            endPos.y += currentOffset.y;
+            endPos.z = -10;
 
         #region Camera Smoothing
-        transform.position = Vector3.Lerp(startPos, endPos, timeOffset * Time.deltaTime);   // Lerp Camera smoothing
+        transform.position = Vector3.Lerp(startPos, endPos, OffsetSmoothing * Time.deltaTime);   // Lerp Camera smoothing
 
-        // Secondary camera movement code --------------------------------------
-
-        // SmoothDamp Camera smoothing, Needs velocity attribute
-        //transform.position = Vector3.SmoothDamp(startPos, endPos, ref velocity, timeOffset);
         #endregion
 
         if (debug == false)
         {
-            transform.position = new Vector3    // Clamping camera boundries
+            playerPosition = new Vector3    // Clamping camera boundries
                 (
                     Mathf.Clamp(transform.position.x, leftLimit, rightLimit),
                     Mathf.Clamp(transform.position.y, bottomLimit, topLimit),

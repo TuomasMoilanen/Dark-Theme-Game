@@ -22,8 +22,15 @@ public class cageCollider : MonoBehaviour
     [Tooltip("Defines the desired sound effect.")]
     private AudioSource audioSource;
 
+    private bool triggered = false;
+
     #endregion Varibles
-    
+
+    private void Awake()
+    {
+        spawnPosition = transform.position;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player") 
@@ -41,9 +48,7 @@ public class cageCollider : MonoBehaviour
 
                 // add max health?
 
-                // Destroy object
-                Destroy(this, 1);
-                Destroy(gameObject, 2);
+                triggered = true;
             }
 
             // Cage is a enemy! >:(
@@ -58,10 +63,15 @@ public class cageCollider : MonoBehaviour
                 // Trigger evil sound
                 //audioSource.enabled = true;
 
+                triggered = true;
+            }
+            if(triggered == true)
+            {
                 // Destroy object
-                Destroy(this, 1);
+                Destroy(this);
                 Destroy(gameObject, 2);
-            }  
+                triggered = false;
+            }
         }
     }
 

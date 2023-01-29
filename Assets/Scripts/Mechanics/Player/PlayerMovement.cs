@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Jump / Fall multipliers")]
     [SerializeField]
     [Tooltip("How fast players fall speed picks up.")]
-    private float fallMultiplier = 2.5f; // How fast players fall speed picks up
+    private float fallMultiplier; // How fast players fall speed picks up
 
     [SerializeField]
     [Tooltip("Multiplier on how much player jumps on quick input.")]
