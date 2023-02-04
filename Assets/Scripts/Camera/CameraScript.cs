@@ -7,6 +7,7 @@ public class CameraScript : MonoBehaviour
     [Tooltip("Defined player game object")]
     public GameObject player;
     private Vector3 playerPosition;
+    private Vector3 startPos;
 
     [Header("Camera offset settings")]
     [SerializeField] 
@@ -21,7 +22,7 @@ public class CameraScript : MonoBehaviour
 
     [SerializeField]
     [Tooltip("Disable camera boundries")]
-    private bool debug;
+    private bool debug = false;
     #endregion
 
     #region Camera boundaries
@@ -52,11 +53,11 @@ public class CameraScript : MonoBehaviour
 
     void LateUpdate()
     {
-            Vector3 startPos = transform.position;  // Cam Start pos
-            Vector3 endPos = player.transform.position; // Players current pos
-            endPos.x += currentOffset.x;   // cam end positions
-            endPos.y += currentOffset.y;
-            endPos.z = -10;
+        Vector3 startPos = transform.position;  // Cam Start pos
+        Vector3 endPos = player.transform.position; // Players current pos
+        endPos.x += currentOffset.x;   // cam end positions
+        endPos.y += currentOffset.y;
+        endPos.z = -10;
 
         #region Camera Smoothing
         transform.position = Vector3.Lerp(startPos, endPos, OffsetSmoothing * Time.deltaTime);   // Lerp Camera smoothing
@@ -65,13 +66,13 @@ public class CameraScript : MonoBehaviour
 
         if (debug == false)
         {
-            playerPosition = new Vector3    // Clamping camera boundries
+            transform.position = new Vector3    // Clamping camera boundries
                 (
                     Mathf.Clamp(transform.position.x, leftLimit, rightLimit),
                     Mathf.Clamp(transform.position.y, bottomLimit, topLimit),
                     transform.position.z
                 );
-        } 
+        }
     }
 
     private void OnDrawGizmos()

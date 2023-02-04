@@ -6,7 +6,7 @@ public class Parallax : MonoBehaviour
 
     [Header("References")]
     [Tooltip("Defines the camera of which the parllax effect follows.")]
-    public GameObject cam;
+    public Camera cam;
 
     [Header("Effects")]
     [Tooltip("Sets the value of the parallax effect from 0 - 1. 0 = Moves without parallax, 1 = moves with camera perfectly.")]
@@ -19,7 +19,7 @@ public class Parallax : MonoBehaviour
         length = GetComponent<SpriteRenderer>().bounds.size.x;  // Finds sprites length 
     }
 
-    void FixedUpdate()
+    void LateUpdate()
     {
         float temp = (cam.transform.position.x * (1 - parallaxEffect)); 
         float dist = (cam.transform.position.x * parallaxEffect);   // Temporary value of how far have to gone from start position

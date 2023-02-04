@@ -243,15 +243,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tile_Pillar_LeftCorner
+      name: Tile_Pillar_LeftCorner_Full
       rect:
         serializedVersion: 2
-        x: 1
-        y: 573
-        width: 167
+        x: 3
+        y: 572
+        width: 255
         height: 256
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -285,15 +285,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tile_Pillar_RightCorner
+      name: Tile_Pillar_RightCorner_Full
       rect:
         serializedVersion: 2
-        x: 682
+        x: 594
         y: 573
-        width: 168
+        width: 256
         height: 256
-      alignment: 9
-      pivot: {x: 0.73, y: 0.5}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -400,8 +400,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tile_Pillar_LeftCorner: 1243259567
       Tile_Platform_RightCorner: -1771971033
+      Tile_Pillar_RightCorner_Full: -810643238
       Tile_RampRoot_RightCorner: -294685086
       Tile_Ground_LeftCorner: -1414847624
       Tile_Ramp_LeftCorner: -1679080446
@@ -410,9 +410,9 @@ TextureImporter:
       Tile_Pillar_Middle: -810643238
       Tile_RampRoot_LeftCorner: -1622542575
       Tile_Platform_LeftCorner: 2120191078
-      Tile_Pillar_RightCorner: -2141689707
       Tile_Ramp_RightCorner: -2141689707
       Tile_Ground_RightCorner: -773898145
+      Tile_Pillar_LeftCorner_Full: -773898145
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
