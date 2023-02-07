@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded; // Status if player is grounded
 
     private Animator animator;
+    // [SerializeField]
+    // private Animation anim;
 
     // ----------------------------------I   I---------------------------------- \\
 
@@ -54,6 +56,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
+        // anim = GetComponent<Animation>();
         animator = GetComponent<Animator>();
         // OnDrawGizmos(); // Draw a gizmo to show the ground check area
 
@@ -89,16 +92,16 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetAxisRaw("Horizontal") < 0)
         {
             transform.rotation = Quaternion.Euler(0, 180, 0);
-            animator.SetTrigger("walking");
+            animator.SetBool("walking", true);
         }
         if (Input.GetAxisRaw("Horizontal") > 0)
         {
             transform.rotation = Quaternion.Euler(0, 0, 0);
-            animator.SetTrigger("walking");
+            animator.SetBool("walking", true);
         }
         if (Input.GetAxisRaw("Horizontal") == 0 || isGrounded == false)
         {
-            animator.ResetTrigger("walking");
+            animator.SetBool("walking", false);
         }
 
         // Jump code --------------------------------------
@@ -106,13 +109,13 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded) // Gets keyboard input from 'unity input manager' and translates it into players transform attributes,
         {                                              // to make player model move up and down
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            animator.SetTrigger("jumping");
+            animator.SetBool("jumping", true);
         }
         if (rb.velocity.y < 0)
         {
             rb.velocity += Vector2.up * Physics.gravity * (fallMultiplier - 1) * Time.deltaTime;
-            animator.ResetTrigger("jumping");
-            animator.SetTrigger("falling");
+            animator.SetBool("jumping", false);
+            animator.SetBool("falling", true); ;
 
         }
         else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
@@ -122,8 +125,8 @@ public class PlayerMovement : MonoBehaviour
         }
         if (isGrounded == true)
         {
-            animator.ResetTrigger("jumping");
-            animator.ResetTrigger("falling");
+            animator.SetBool("jumping", false);
+            animator.SetBool("falling", false);
         }
     }
     // private void OnDrawGizmos()
