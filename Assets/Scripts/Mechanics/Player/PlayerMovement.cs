@@ -121,7 +121,7 @@ public class PlayerMovement : MonoBehaviour
         else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
         {
             rb.velocity += Vector2.up * Physics.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
-            animator.SetTrigger("jumping");
+            animator.SetBool("jumping", true);
         }
         if (isGrounded == true)
         {
