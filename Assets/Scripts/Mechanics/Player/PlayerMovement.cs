@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Jump / Fall multipliers")]
     [SerializeField]
     [Tooltip("How fast players fall speed picks up.")]
-    private float fallMultiplier = 2.5f; // How fast players fall speed picks up
+    private float fallMultiplier; // How fast players fall speed picks up
 
     [SerializeField]
     [Tooltip("Multiplier on how much player jumps on quick input.")]
@@ -58,7 +58,7 @@ public class PlayerMovement : MonoBehaviour
     {
         // anim = GetComponent<Animation>();
         animator = GetComponent<Animator>();
-        // OnDrawGizmos(); // Draw a gizmo to show the ground check area
+        //OnDrawGizmos(); // Draw a gizmo to show the ground check area
 
     }
     void Update()
@@ -121,7 +121,7 @@ public class PlayerMovement : MonoBehaviour
         else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
         {
             rb.velocity += Vector2.up * Physics.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
-            animator.SetTrigger("jumping");
+            animator.SetBool("jumping", true);
         }
         if (isGrounded == true)
         {
