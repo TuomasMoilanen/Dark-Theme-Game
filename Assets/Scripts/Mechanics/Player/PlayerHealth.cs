@@ -18,9 +18,6 @@ public class PlayerHealth : MonoBehaviour
         stats.health -= damage;
         if (stats.health <= 0)
         {
-            animator.ResetTrigger("jumping");
-            animator.ResetTrigger("falling");
-            animator.ResetTrigger("walking");
             animator.SetBool("isDead", true);
             gameOver.EndGame();
         }

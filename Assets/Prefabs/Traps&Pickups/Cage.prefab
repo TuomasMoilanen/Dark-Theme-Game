@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnemy: 0
-  mimic: {fileID: 642175913178101461, guid: 75d4a233d7009b84f81af7d6f0d00768, type: 3}
+  mimic: {fileID: 5408246348022298671, guid: 75d4a233d7009b84f81af7d6f0d00768, type: 3}
   spawnPosition: {x: 0, y: 0}
   audioSource: {fileID: 0}
 --- !u!61 &3283791407389570683
