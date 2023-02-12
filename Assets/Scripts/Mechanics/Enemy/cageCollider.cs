@@ -15,6 +15,14 @@ public class cageCollider : MonoBehaviour
     private GameObject mimic;
 
     [SerializeField]
+    [Tooltip("Defines mimic soul gameobject.")]
+    private GameObject mimicSoul;
+
+    [SerializeField]
+    [Tooltip("Defines souls gameobject.")]
+    private GameObject soul;
+
+    [SerializeField]
     [Tooltip("Copy this game objects X and Y values to spawn mimic on itself.")]
     private Vector2 spawnPosition;
 
@@ -29,6 +37,19 @@ public class cageCollider : MonoBehaviour
     private void Awake()
     {
         spawnPosition = transform.position;
+
+        if (isEnemy == true)
+        {
+            mimicSoul.gameObject.SetActive(true);
+
+            soul.gameObject.SetActive(false);
+        }
+        if (isEnemy == false)
+        {
+            mimicSoul.gameObject.SetActive(false);
+
+            soul.gameObject.SetActive(true);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
