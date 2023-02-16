@@ -1,4 +1,6 @@
 using Unity.Mathematics;
+using Unity.VisualScripting.Antlr3.Runtime.Misc;
+using UnityEditor;
 using UnityEngine;
 
 public class cageCollider : MonoBehaviour
@@ -15,6 +17,14 @@ public class cageCollider : MonoBehaviour
     private GameObject mimic;
 
     [SerializeField]
+    [Tooltip("Defines mimic soul gameobject.")]
+    private GameObject mimicSoul;
+
+    [SerializeField]
+    [Tooltip("Defines souls gameobject.")]
+    private GameObject soul;
+
+    [SerializeField]
     [Tooltip("Copy this game objects X and Y values to spawn mimic on itself.")]
     private Vector2 spawnPosition;
 
@@ -22,13 +32,26 @@ public class cageCollider : MonoBehaviour
     [Tooltip("Defines the desired sound effect.")]
     private AudioSource audioSource;
 
-    private bool triggered = false;
+    public bool triggered = false;
 
     #endregion Varibles
 
     private void Awake()
     {
         spawnPosition = transform.position;
+
+        if (isEnemy == true)
+        {
+            mimicSoul.gameObject.SetActive(true);
+
+            soul.gameObject.SetActive(false);
+        }
+        if (isEnemy == false)
+        {
+            mimicSoul.gameObject.SetActive(false);
+
+            soul.gameObject.SetActive(true);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -40,6 +63,8 @@ public class cageCollider : MonoBehaviour
             // Cage is a friend! :)
             if (isEnemy == false)  // Searches the colliding collider if it is a player
             {
+                triggered = true;
+
                 // Spawn soul fly away
                 //Animator animator = GetComponent<Animator>();
 
@@ -48,12 +73,13 @@ public class cageCollider : MonoBehaviour
 
                 // add max health?
 
-                triggered = true;
+
             }
 
             // Cage is a enemy! >:(
             if (isEnemy == true) // Cage is a Enemy! >:(
             {
+                triggered = true;
                 // Constructor spawn enemy
                 OnSpawnMimic();
 
@@ -63,7 +89,7 @@ public class cageCollider : MonoBehaviour
                 // Trigger evil sound
                 //audioSource.enabled = true;
 
-                triggered = true;
+                
             }
             if(triggered == true)
             {
