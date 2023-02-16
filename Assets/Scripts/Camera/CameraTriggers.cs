@@ -38,7 +38,7 @@ public class CameraTriggers : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay2D(Collider2D collision) // checks if trigger collider is hitting game object with tag of "Player"
+    private void OnTriggerEnter2D(Collider2D collision) // checks if trigger collider is hitting game object with tag of "Player"
     {
         if (collision.gameObject.tag == "Player")
         {
