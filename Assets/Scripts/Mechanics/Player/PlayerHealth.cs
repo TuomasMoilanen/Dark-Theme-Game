@@ -24,6 +24,13 @@ public class PlayerHealth : MonoBehaviour
             animator.SetBool("isDead", true);
             gameOver.EndGame();
         }
+    }
 
+    public void Heal(int healthRestore)
+    {
+        if (stats.health < 3) // If player health is less than 3 calls "healthRestore function in CageCollider script 
+        {
+            stats.health += healthRestore;
+        }
     }
 }

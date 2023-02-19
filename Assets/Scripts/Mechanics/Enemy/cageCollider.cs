@@ -7,31 +7,16 @@ public class cageCollider : MonoBehaviour
 {
     #region Variables
     [Header("Switch")]
-    [SerializeField]
-    [Tooltip("When enabled, object is detected as Enemy.")]
-    private bool isEnemy;
+    [SerializeField, Tooltip("When enabled, object is detected as Enemy.")] private bool isEnemy;
 
     [Header("Sources")]
-    [SerializeField]
-    [Tooltip("Defines mimics spawnable enemy game object.")]
-    private GameObject mimic;
+    [SerializeField, Tooltip("Defines mimics spawnable enemy game object.")] private GameObject mimic;
+    [SerializeField, Tooltip("Defines mimic soul gameobject.")] private GameObject mimicSoul;
+    [SerializeField, Tooltip("Defines souls gameobject.")] private GameObject soul;
+    [SerializeField, Tooltip("Copy this game objects X and Y values to spawn mimic on itself.")] private Vector2 spawnPosition;
+    [SerializeField, Tooltip("Defines the desired sound effect.")] private AudioSource audioSource;
 
-    [SerializeField]
-    [Tooltip("Defines mimic soul gameobject.")]
-    private GameObject mimicSoul;
-
-    [SerializeField]
-    [Tooltip("Defines souls gameobject.")]
-    private GameObject soul;
-
-    [SerializeField]
-    [Tooltip("Copy this game objects X and Y values to spawn mimic on itself.")]
-    private Vector2 spawnPosition;
-
-    [SerializeField]
-    [Tooltip("Defines the desired sound effect.")]
-    private AudioSource audioSource;
-
+    private int healthRestore = 1;
     public bool triggered = false;
 
     #endregion Varibles
@@ -54,12 +39,14 @@ public class cageCollider : MonoBehaviour
         }
     }
 
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player") 
         {
             Debug.Log("Is the Cage an Enemy? " + isEnemy);
-
+            PlayerHealth playerHealth = collision.GetComponent<PlayerHealth>(); // finds the Player health script and nicknames it. On collision it searches for component "PlayerHealth" 
+            
             // Cage is a friend! :)
             if (isEnemy == false)  // Searches the colliding collider if it is a player
             {
@@ -71,9 +58,8 @@ public class cageCollider : MonoBehaviour
                 // Make nice sound
                 //audioSource.enabled = true;
 
-                // add max health?
-
-
+                // heals
+                playerHealth.Heal(healthRestore); // adds health to "PlayerStats" scriptable object using "PlayerHealth" script with its "Heal" function
             }
 
             // Cage is a enemy! >:(
