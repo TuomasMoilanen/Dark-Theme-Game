@@ -624,9 +624,9 @@ TextureImporter:
       name: Ground_Left_Stop
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 566
-        width: 511
+        width: 513
         height: 517
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -637,27 +637,6 @@ TextureImporter:
       bones: []
       spriteID: f98dd1f1a291b8f49939821f250d7420
       internalID: 1147396638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Paletti_Uusi_versio_2_27
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 858
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59b67f0ebd31f4c4dae8f6ba28c7f01c
-      internalID: -1932367327
       vertices: []
       indices: 
       edges: []
@@ -687,8 +666,8 @@ TextureImporter:
       name: Ramp_LeftCorner_Continue
       rect:
         serializedVersion: 2
-        x: 1166
-        y: 538
+        x: 1162
+        y: 536
         width: 517
         height: 517
       alignment: 0
@@ -763,27 +742,6 @@ TextureImporter:
       bones: []
       spriteID: 123b9ef2da93598449035f9601dbc7be
       internalID: 279827732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile_Paletti_Uusi_versio_2_33
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 814
-        width: 11
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48905e8128b181743a0a08dd8f341129
-      internalID: 322694657
       vertices: []
       indices: 
       edges: []
@@ -906,7 +864,7 @@ TextureImporter:
     nameFileIdTable:
       Pillar_Bottom: -531341566
       Ground_Right_Stop: 279827732
-      Ground_Floating_Right_Shadow: -729834431
+      Pillar_Middle: 1358199225
       Pillar_Right_Corner: -962460025
       Ground_Floating_Left_Shadow: 1333808844
       Ramp_Right: 1444596828
@@ -939,10 +897,10 @@ TextureImporter:
       Ground_Left_ContinueRamp: 2014684228
       Ground_Floating_Middle_Shadow: -1249638614
       Tile_Paletti_Uusi_versio_2_34: 1920124374
-      Wall_Ramp_Left_Corner: 2135053575
       Pillar_Left: 522430203
+      Ground_Floating_Right_Shadow: -729834431
+      Wall_Ramp_Left_Corner: 2135053575
       Ground_Left: -935411568
-      Pillar_Middle: 1358199225
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
