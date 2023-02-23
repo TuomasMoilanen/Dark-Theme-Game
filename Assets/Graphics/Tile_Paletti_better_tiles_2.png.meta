@@ -1,0 +1,1640 @@
+fileFormatVersion: 2
+guid: abda26fa5b9d38543a1484d1f3e844b3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_0
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 5071
+        width: 274
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f62e1cc371c714dad3591f50f000ab
+      internalID: -1271343064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_1
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 5071
+        width: 272
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82be827930d94e64c80caa665c8651df
+      internalID: -557780766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FullWall2_Cliff_Up
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 5015
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b1b3202b315c342844e840b753f742
+      internalID: -1223541664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FullWall2_Cliff_Right
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 4998
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d067fa7efbaf66d4289184c7626e018e
+      internalID: 918726218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_4
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 5040
+        width: 321
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101dc31167e58ed43997322ec3b84f6d
+      internalID: 1245912448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FullWall_Cliff_Up
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 5020
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aca793973f21bb479fa98e13ca00901
+      internalID: 1261263862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FullWall_Cliff_Down
+      rect:
+        serializedVersion: 2
+        x: 4577
+        y: 4992
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fe52cb3a727c44b864edf85f7bee45
+      internalID: -1031083325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_7
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 4745
+        width: 521
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a6835a323530a4f89748e950d0129c
+      internalID: -1531854333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_8
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 4482
+        width: 274
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ba65d1305daaa4893ede3881dba2bf
+      internalID: -1548059664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FullWall2_Cliff_Down
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 4434
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92f4647d527d2047a0b645bf61c63bd
+      internalID: 361481590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FullWall2_Cliff_Left
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 4436
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d900f0fd7ba46b945b771ef1cff0affb
+      internalID: 743172763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_11
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 4555
+        width: 320
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc51cb3b32d1f1f459973b271f4eb014
+      internalID: 604266432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FullWall_Cliff_Right
+      rect:
+        serializedVersion: 2
+        x: 3957
+        y: 4437
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e21b47805e9a849b96f20170976354
+      internalID: -1488304977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FullWall_Cliff_Left
+      rect:
+        serializedVersion: 2
+        x: 4573
+        y: 4452
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de1e89d8bfb3224abdfbf0791c51168
+      internalID: -1466896290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_14
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 4453
+        width: 521
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfa7b35641b55447801ec235694e635
+      internalID: 90289030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_15
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 4141
+        width: 468
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9f15e0ccfdf984dba0a66782a06faf
+      internalID: -1013188237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HalfWall_Cliff_Left
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 3606
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca7ee26ae095d842b2978c700219941
+      internalID: -1194038448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HalfWall_Cliff_Right
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 3605
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e4753003c88f647b3a60251f7e5c23
+      internalID: 85988839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Platform_Left
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 3771
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfb4d4c7717d8c44b4599262bbdc356
+      internalID: -1559664551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Platform_Middle
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 3741
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6949e1b825652ff45b074a13fd38b116
+      internalID: 940551306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Platform_Right
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 3751
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf056df5394e264f99021bc275e5312
+      internalID: 1495390078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_21
+      rect:
+        serializedVersion: 2
+        x: 3275
+        y: 3720
+        width: 468
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4a7479ff6ee2a45bec73e235173ca2
+      internalID: -2122336641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_22
+      rect:
+        serializedVersion: 2
+        x: 3941
+        y: 4022
+        width: 521
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9efd25502f334e4da50870902c32f2f
+      internalID: -596131354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_25
+      rect:
+        serializedVersion: 2
+        x: 4561
+        y: 3728
+        width: 336
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebec9af7988f9bd4b80c622ce26b6361
+      internalID: 1146698598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_26
+      rect:
+        serializedVersion: 2
+        x: 4922
+        y: 3740
+        width: 339
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760fc9f173655b94d971bf48bb61be42
+      internalID: -689329226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_28
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 3655
+        width: 521
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8400f3f71cf97814ca4bea6d0bab4af8
+      internalID: -998747371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HalfWall_Cliff_Left2
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 3059
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d20d610118f1642b80a7eaacd99912
+      internalID: 385818655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HalfWall_Cliff_Right2
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 3060
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d31a66b775b4bd44840fdb52308fe49
+      internalID: -237262180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Cliff_Left
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 3129
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb384cd5d78a43419878fa1c9eec307
+      internalID: 1393436732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Cliff_Middle
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 3130
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d6c13617956e547b93cee03499d324
+      internalID: -154985209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Cliff_Right
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 3132
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417d088fdf1c92545ba341e1cc4522d9
+      internalID: 1296308892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_40
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 2941
+        width: 272
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ec5709c4920524e92db309c93a2a44
+      internalID: 494051065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_41
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 2941
+        width: 275
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1740cb8b9404294aaee297e4ffca8d1
+      internalID: -1432384679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_42
+      rect:
+        serializedVersion: 2
+        x: 4114
+        y: 3214
+        width: 521
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf83726e97554d4398d7109f639429f
+      internalID: -1593937386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FullWall_Cliff_Left2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 2514
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f5fb68929544f4a96a716b127621be
+      internalID: -2002561154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FullWall_Cliff_Right2
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 2523
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8366ee91b3f07cc4fae50473c4b8d05e
+      internalID: -1304753468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_Cliff_Left
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 2527
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75c5a62499803a40b7940521c4bd221
+      internalID: 1983330931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_Cliff_Middle
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 2520
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df962bf6bdf644408b4481220f92fa9
+      internalID: -973306116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_Cliff_Right
+      rect:
+        serializedVersion: 2
+        x: 2651
+        y: 2511
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548e5295a2256ec4d986a4b8f9f1006b
+      internalID: 1229715221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_48
+      rect:
+        serializedVersion: 2
+        x: 4131
+        y: 2916
+        width: 521
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5d380bb392a3f40bc98358f8c68ec5
+      internalID: -1556203696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_49
+      rect:
+        serializedVersion: 2
+        x: 4068
+        y: 2460
+        width: 507
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b131018644737f4d9ae8ccce06f707f
+      internalID: 1494859920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_50
+      rect:
+        serializedVersion: 2
+        x: 4740
+        y: 2465
+        width: 521
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e146a08bbf1894db76050b9ad4c7b1
+      internalID: -1371819544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CornerWall_Cliff_Left
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1905
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20cece2da54f274593033afaae9e69c
+      internalID: 1737383591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CornerWall_Cliff_Right
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1904
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15834a2b896df9549b40d24355c74149
+      internalID: 143630413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_Bottom_Left
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1899
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a086222dffd58444a8b642b9b43fc20
+      internalID: 1930487050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_Bottom_Middle
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 1892
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387382433ca8323409406f183f884f12
+      internalID: 1368896455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_Bottom_Right
+      rect:
+        serializedVersion: 2
+        x: 2645
+        y: 1894
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0841afa8f60c1f449addfab9a857aa8c
+      internalID: -1711746808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_56
+      rect:
+        serializedVersion: 2
+        x: 4085
+        y: 2230
+        width: 507
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da15b8a2342d29d4897a6d765b865578
+      internalID: 900240871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_57
+      rect:
+        serializedVersion: 2
+        x: 4723
+        y: 2230
+        width: 521
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677d081e658581246bd6db3762770ac4
+      internalID: 1846223616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_58
+      rect:
+        serializedVersion: 2
+        x: 4068
+        y: 1956
+        width: 507
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba544123b8093e48809ced17feb7589
+      internalID: -1973876183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_59
+      rect:
+        serializedVersion: 2
+        x: 4740
+        y: 1661
+        width: 198
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0001b7a98f7c1246951057805df645f
+      internalID: 710928945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_60
+      rect:
+        serializedVersion: 2
+        x: 4997
+        y: 1661
+        width: 199
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371c6fb059f28f842934b421c2534c9d
+      internalID: 1249826692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Slope_Left_End
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1355
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f183cdaba836442a7e80f37e578330
+      internalID: 482934737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Slope_Right_End
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 1353
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee1e49cd23260446972f7618ec2edd9
+      internalID: 1390482636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_63
+      rect:
+        serializedVersion: 2
+        x: 4085
+        y: 1715
+        width: 507
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbac4aea7e11ba64690fb188bd81abb6
+      internalID: -1626785779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Slope_Left_Continue
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 788
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3670eafbc6896144488b6b07f771cfc5
+      internalID: 1835264784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Cliff_Left_StartSlope
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 783
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa6d0abc946e1146a7cc28f5c3c1ee7
+      internalID: -1588141680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Cliff_Middle2
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 783
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3477fb70d14eb2c4cbfc7bb66cea4851
+      internalID: 141165936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Cliff_Right_StartSlope
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 780
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54b73fa4b14f9043875315cff3ed6f5
+      internalID: 2137479079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Slope_Right_Continue
+      rect:
+        serializedVersion: 2
+        x: 3226
+        y: 786
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a651f1ef67fc5459c36b24e175d8ff
+      internalID: 2137832883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_69
+      rect:
+        serializedVersion: 2
+        x: 4069
+        y: 1114
+        width: 195
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a13e12ad9c2c03468e048eb802075ff
+      internalID: -1591817460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_70
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 1106
+        width: 201
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d641b2bb96082d94e82fbb48d88f9c71
+      internalID: -1379076837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_71
+      rect:
+        serializedVersion: 2
+        x: 4740
+        y: 1100
+        width: 195
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e484cee041a9c44bb6e97c872d3d3d
+      internalID: -844405146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Paletti_better_tiles_2_72
+      rect:
+        serializedVersion: 2
+        x: 5003
+        y: 1078
+        width: 193
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa185284447a640458e33f3c7a1c308b
+      internalID: 2090664456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_CornerSlope_Left_Continue
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 212
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa29f6433c1a5e4b8a9b5505367469a
+      internalID: 1422787427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_CornerSlope_Left_End
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 210
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8310ef31968104c840edd7d76fbc13
+      internalID: 968340506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_CornerSlope_Right_End
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 210
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c7c6980128db04f9420cbe3ab71c57
+      internalID: 169862508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_CornerSlope_Right_Continue
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 211
+        width: 515
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22ff3aabc0c90d4b833852b5d966eaf
+      internalID: -1866926072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ground_Cliff_Right: 1296308892
+      FullWall_Cliff_Right2: -1304753468
+      Tile_Paletti_better_tiles_2_60: 1249826692
+      HalfWall_Cliff_Right: 85988839
+      Ground_CornerSlope_Left_Continue: 1422787427
+      Tile_Paletti_better_tiles_2_14: 90289030
+      Tile_Paletti_better_tiles_2_34: 745240570
+      Ground_Platform_Left: -1559664551
+      Tile_Paletti_better_tiles_2_32: -35622531
+      Ground_Slope_Right_Continue: 2137832883
+      Ground_Cliff_Middle2: 141165936
+      FullWall2_Cliff_Up: -1223541664
+      FullWall_Cliff_Left2: -2002561154
+      Ground_Slope_Right_End: 1390482636
+      Ground_CornerSlope_Right_Continue: -1866926072
+      Tile_Paletti_better_tiles_2_49: 1494859920
+      Tile_Paletti_better_tiles_2_57: 1846223616
+      Tile_Paletti_better_tiles_2_21: -2122336641
+      HalfWall_Cliff_Left2: 385818655
+      Wall_Cliff_Left: 1983330931
+      HalfWall_Cliff_Left: -1194038448
+      Wall_Cliff_Right: 1229715221
+      Tile_Paletti_better_tiles_2_24: 1070185147
+      Tile_Paletti_better_tiles_2_40: 494051065
+      Tile_Paletti_better_tiles_2_29: -983600513
+      Ground_Cliff_Left: 1393436732
+      Ground_CornerSlope_Left_End: 968340506
+      Tile_Paletti_better_tiles_2_41: -1432384679
+      Tile_Paletti_better_tiles_2_56: 900240871
+      Wall_Bottom_Middle: 1368896455
+      Ground_CornerSlope_Right_End: 169862508
+      Tile_Paletti_better_tiles_2_48: -1556203696
+      FullWall_Cliff_Up: 1261263862
+      Tile_Paletti_better_tiles_2_8: -1548059664
+      Tile_Paletti_better_tiles_2_22: -596131354
+      Tile_Paletti_better_tiles_2_1: -557780766
+      FullWall_Cliff_Right: -1488304977
+      Tile_Paletti_better_tiles_2_50: -1371819544
+      Wall_Bottom_Left: 1930487050
+      Tile_Paletti_better_tiles_2_15: -1013188237
+      FullWall_Cliff_Left: -1466896290
+      CornerWall_Cliff_Right: 143630413
+      FullWall2_Cliff_Down: 361481590
+      Wall_Cliff_Middle: -973306116
+      Tile_Paletti_better_tiles_2_23: -1623344957
+      Tile_Paletti_better_tiles_2_28: -998747371
+      Ground_Cliff_Left_StartSlope: -1588141680
+      Tile_Paletti_better_tiles_2_33: 445663161
+      Tile_Paletti_better_tiles_2_26: -689329226
+      Tile_Paletti_better_tiles_2_71: -844405146
+      Tile_Paletti_better_tiles_2_42: -1593937386
+      Tile_Paletti_better_tiles_2_59: 710928945
+      Tile_Paletti_better_tiles_2_58: -1973876183
+      Tile_Paletti_better_tiles_2_70: -1379076837
+      Ground_Cliff_Middle: -154985209
+      Wall_Bottom_Right: -1711746808
+      Tile_Paletti_better_tiles_2_0: -1271343064
+      Tile_Paletti_better_tiles_2_63: -1626785779
+      Tile_Paletti_better_tiles_2_11: 604266432
+      Tile_Paletti_better_tiles_2_30: -555735136
+      Tile_Paletti_better_tiles_2_72: 2090664456
+      FullWall_Cliff_Down: -1031083325
+      HalfWall_Cliff_Right2: -237262180
+      CornerWall_Cliff_Left: 1737383591
+      Ground_Platform_Middle: 940551306
+      Tile_Paletti_better_tiles_2_7: -1531854333
+      Tile_Paletti_better_tiles_2_69: -1591817460
+      Ground_Slope_Left_Continue: 1835264784
+      Ground_Platform_Right: 1495390078
+      FullWall2_Cliff_Right: 918726218
+      Tile_Paletti_better_tiles_2_4: 1245912448
+      Tile_Paletti_better_tiles_2_27: 795432987
+      Ground_Slope_Left_End: 482934737
+      Tile_Paletti_better_tiles_2_25: 1146698598
+      Ground_Cliff_Right_StartSlope: 2137479079
+      FullWall2_Cliff_Left: 743172763
+      Tile_Paletti_better_tiles_2_31: -253686763
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
