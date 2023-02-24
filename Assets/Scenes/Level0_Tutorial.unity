@@ -7142,8 +7142,8 @@ GameObject:
   m_Component:
   - component: {fileID: 891049700}
   - component: {fileID: 891049699}
-  - component: {fileID: 891049698}
   - component: {fileID: 891049701}
+  - component: {fileID: 891049698}
   m_Layer: 6
   m_Name: LevelComplete
   m_TagString: Untagged
@@ -7238,7 +7238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7df511baac8a5441bbf0bbc6e12dacf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: 
+  levelName: Level1_Cavern
 --- !u!1 &994829227
 GameObject:
   m_ObjectHideFlags: 0
