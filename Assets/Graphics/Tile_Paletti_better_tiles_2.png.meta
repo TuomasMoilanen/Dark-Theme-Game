@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1556,7 +1556,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Ground_Cliff_Right: 1296308892
-      FullWall_Cliff_Right2: -1304753468
+      Tile_Paletti_better_tiles_2_31: -253686763
       Tile_Paletti_better_tiles_2_60: 1249826692
       HalfWall_Cliff_Right: 85988839
       Ground_CornerSlope_Left_Continue: 1422787427
@@ -1568,8 +1568,6 @@ TextureImporter:
       Ground_Cliff_Middle2: 141165936
       FullWall2_Cliff_Up: -1223541664
       FullWall_Cliff_Left2: -2002561154
-      Ground_Slope_Right_End: 1390482636
-      Ground_CornerSlope_Right_Continue: -1866926072
       Tile_Paletti_better_tiles_2_49: 1494859920
       Tile_Paletti_better_tiles_2_57: 1846223616
       Tile_Paletti_better_tiles_2_21: -2122336641
@@ -1587,51 +1585,53 @@ TextureImporter:
       Wall_Bottom_Middle: 1368896455
       Ground_CornerSlope_Right_End: 169862508
       Tile_Paletti_better_tiles_2_48: -1556203696
-      FullWall_Cliff_Up: 1261263862
+      FullWall_Cliff_Right: -1488304977
       Tile_Paletti_better_tiles_2_8: -1548059664
       Tile_Paletti_better_tiles_2_22: -596131354
       Tile_Paletti_better_tiles_2_1: -557780766
-      FullWall_Cliff_Right: -1488304977
+      FullWall_Cliff_Up: 1261263862
       Tile_Paletti_better_tiles_2_50: -1371819544
       Wall_Bottom_Left: 1930487050
       Tile_Paletti_better_tiles_2_15: -1013188237
-      FullWall_Cliff_Left: -1466896290
       CornerWall_Cliff_Right: 143630413
       FullWall2_Cliff_Down: 361481590
       Wall_Cliff_Middle: -973306116
       Tile_Paletti_better_tiles_2_23: -1623344957
       Tile_Paletti_better_tiles_2_28: -998747371
-      Ground_Cliff_Left_StartSlope: -1588141680
+      FullWall_Cliff_Left: -1466896290
       Tile_Paletti_better_tiles_2_33: 445663161
+      Ground_Cliff_Left_StartSlope: -1588141680
       Tile_Paletti_better_tiles_2_26: -689329226
       Tile_Paletti_better_tiles_2_71: -844405146
-      Tile_Paletti_better_tiles_2_42: -1593937386
-      Tile_Paletti_better_tiles_2_59: 710928945
-      Tile_Paletti_better_tiles_2_58: -1973876183
       Tile_Paletti_better_tiles_2_70: -1379076837
+      Ground_Slope_Right_End: 1390482636
       Ground_Cliff_Middle: -154985209
-      Wall_Bottom_Right: -1711746808
+      HalfWall_Cliff_Right2: -237262180
+      FullWall_Cliff_Down: -1031083325
+      Ground_Slope_Left_Continue: 1835264784
       Tile_Paletti_better_tiles_2_0: -1271343064
-      Tile_Paletti_better_tiles_2_63: -1626785779
+      Tile_Paletti_better_tiles_2_59: 710928945
+      Ground_Slope_Left_End: 482934737
       Tile_Paletti_better_tiles_2_11: 604266432
+      CornerWall_Cliff_Left: 1737383591
       Tile_Paletti_better_tiles_2_30: -555735136
       Tile_Paletti_better_tiles_2_72: 2090664456
-      FullWall_Cliff_Down: -1031083325
-      HalfWall_Cliff_Right2: -237262180
-      CornerWall_Cliff_Left: 1737383591
+      Tile_Paletti_better_tiles_2_63: -1626785779
       Ground_Platform_Middle: 940551306
-      Tile_Paletti_better_tiles_2_7: -1531854333
+      Tile_Paletti_better_tiles_2_42: -1593937386
       Tile_Paletti_better_tiles_2_69: -1591817460
-      Ground_Slope_Left_Continue: 1835264784
+      Tile_Paletti_better_tiles_2_58: -1973876183
       Ground_Platform_Right: 1495390078
+      Ground_CornerSlope_Right_Continue: -1866926072
       FullWall2_Cliff_Right: 918726218
+      FullWall2_Cliff_Left: 743172763
       Tile_Paletti_better_tiles_2_4: 1245912448
       Tile_Paletti_better_tiles_2_27: 795432987
-      Ground_Slope_Left_End: 482934737
       Tile_Paletti_better_tiles_2_25: 1146698598
+      Tile_Paletti_better_tiles_2_7: -1531854333
+      Wall_Bottom_Right: -1711746808
       Ground_Cliff_Right_StartSlope: 2137479079
-      FullWall2_Cliff_Left: 743172763
-      Tile_Paletti_better_tiles_2_31: -253686763
+      FullWall_Cliff_Right2: -1304753468
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
