@@ -15,6 +15,7 @@ public class cageCollider : MonoBehaviour
     [SerializeField, Tooltip("Defines souls gameobject.")] private GameObject soul;
     [SerializeField, Tooltip("Copy this game objects X and Y values to spawn mimic on itself.")] private Vector2 spawnPosition;
     [SerializeField, Tooltip("Defines the desired sound effect.")] private AudioSource audioSource;
+    public UIController controller;
 
     private int healthRestore = 1;
     public bool triggered = false;
@@ -60,6 +61,7 @@ public class cageCollider : MonoBehaviour
 
                 // heals
                 playerHealth.Heal(healthRestore); // adds health to "PlayerStats" scriptable object using "PlayerHealth" script with its "Heal" function
+                controller.HeartsCollected();
             }
 
             // Cage is a enemy! >:(
@@ -74,8 +76,6 @@ public class cageCollider : MonoBehaviour
 
                 // Trigger evil sound
                 //audioSource.enabled = true;
-
-                
             }
             if(triggered == true)
             {
