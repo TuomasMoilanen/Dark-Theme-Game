@@ -21,6 +21,8 @@ public class MeleeEnemy : MonoBehaviour
 
     [SerializeField]
     private int damage = 1;
+    [SerializeField]
+    private BoxCollider2D groundDetectionCollider;
 
     private PlayerHealth playerHealth;
 
