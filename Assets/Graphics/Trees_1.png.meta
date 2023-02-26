@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e8afdc28b8a504c4f9226771c6e17d64
+guid: d9ba02cecd9ea724f88ba0a57f090b2c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bush_0
+      name: Trees_1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 28
-        width: 1214
-        height: 845
+        x: 82
+        y: 65
+        width: 920
+        height: 1386
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e7672f4665082145a2cf5efdd3c4f44
-      internalID: -537167401
+      spriteID: 87acce6108ea4534aaf2b22d7a875c71
+      internalID: 1856861517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bush_1
+      name: Trees_1_1
       rect:
         serializedVersion: 2
-        x: 1221
-        y: 844
-        width: 11
-        height: 14
+        x: 1080
+        y: 55
+        width: 923
+        height: 1387
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fd6628347bd7334c872e025f6c8b43b
-      internalID: 1974994208
+      spriteID: f7507a9f577e97245a476faa4a57c70e
+      internalID: -280114357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bush_2
+      name: Trees_1_2
       rect:
         serializedVersion: 2
-        x: 1228
-        y: 32
-        width: 1035
-        height: 1233
+        x: 2052
+        y: 55
+        width: 923
+        height: 1387
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9837e63fccdf0f44abee63475798df8
-      internalID: -1095788022
+      spriteID: ea184d27b35aad94faf2d10ef5948f7f
+      internalID: 926395057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bush_3
+      name: Trees_1_3
       rect:
         serializedVersion: 2
-        x: 2267
-        y: 28
-        width: 1546
-        height: 988
+        x: 3006
+        y: 55
+        width: 921
+        height: 1387
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f38a69421473d8f4bad639e224b02110
-      internalID: -2085296209
+      spriteID: 02d754336bb46714ea2a5962c4cd50c5
+      internalID: 1761453500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bush_4
+      name: Trees_1_4
       rect:
         serializedVersion: 2
-        x: 3902
-        y: 0
-        width: 996
-        height: 1496
+        x: 4005
+        y: 65
+        width: 923
+        height: 1387
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,29 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf2fe62630e38fd44b682fb15fde3ad9
-      internalID: 536663358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bush_5
-      rect:
-        serializedVersion: 2
-        x: 1468
-        y: 29
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbe966c942d01c940a8219e036c19880
-      internalID: 1561161734
+      spriteID: 4b2e5a5fee0313245b7a46d468c496ef
+      internalID: -193724275
       vertices: []
       indices: 
       edges: []
@@ -253,15 +232,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bush_3: -2085296209
-      Bush_2: -1095788022
-      Bush_0: -537167401
-      Bush_1: 1974994208
-      Bush_4: 536663358
-      Bush_5: 1561161734
+      Trees_1_3: 1761453500
+      Trees_1_2: 926395057
+      Trees_1_0: 1856861517
+      Trees_1_1: -280114357
+      Trees_1_4: -193724275
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 1
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
