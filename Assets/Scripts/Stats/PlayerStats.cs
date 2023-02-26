@@ -1,10 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Player Stats")]
 public class PlayerStats : ScriptableObject
 {
     [Header("Player health")]
-    [SerializeField] public int health = 3;
+    public int health = 3;
+
+    private void Update()
+    {
+        if (health >= 4)
+        {
+            health = 3;
+        }
+    }
 }
