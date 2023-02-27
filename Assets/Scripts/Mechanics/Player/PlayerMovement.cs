@@ -56,9 +56,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
-        // anim = GetComponent<Animation>();
         animator = GetComponent<Animator>();
-        //OnDrawGizmos(); // Draw a gizmo to show the ground check area
 
     }
     void Update()
@@ -79,14 +77,6 @@ public class PlayerMovement : MonoBehaviour
         #region Movement & Jump
 
         // Moving code --------------------------------------
-
-        // transform.Translate(Input.GetAxis("Horizontal") * movSpeed * Time.deltaTime, 0, 0); // Gets keyboard input from 'unity input manager' and translates it into players
-        // if (Input.GetAxisRaw("Horizontal") != 0)                                            // transform attributes, to make player model move sideways
-        // {
-        //     transform.localScale = new Vector3(Input.GetAxisRaw("Horizontal"), 1, 1);   // Turns player model around when moving oposite directions
-        // }
-
-        // New movement code to work together with the projectile firing
         var movement = Input.GetAxisRaw("Horizontal");
         transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * movSpeed;
         if (Input.GetAxisRaw("Horizontal") < 0)
@@ -129,12 +119,12 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("falling", false);
         }
     }
-    // private void OnDrawGizmos()
-    // {
+    private void OnDrawGizmos()
+    {
 
-    //     Gizmos.color = groundCheckGizmoColor;
+        Gizmos.color = groundCheckGizmoColor;
 
-    //     Gizmos.DrawSphere(groundCheckPosition.position, groundCheckRadius); // Draws a gizmo for the groundCheck area
-    // }
+        Gizmos.DrawSphere(groundCheckPosition.position, groundCheckRadius); // Draws a gizmo for the groundCheck area
+    }
     #endregion
 }

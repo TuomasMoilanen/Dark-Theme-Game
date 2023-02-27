@@ -1,11 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
     public PlayerStats stats;
-    public GameOver gameOver;
+    public PlayerMovement mov;
+
+    private Transform spawnPoint;
+    private Transform playerPos;
 
     private Animator animator;
 
@@ -13,14 +15,31 @@ public class PlayerHealth : MonoBehaviour
     {
         animator = GetComponent<Animator>();
     }
+
+    private void Start()
+    {
+        playerPos = GameObject.FindGameObjectWithTag("Player").transform;
+        spawnPoint = GameObject.FindGameObjectWithTag("Respawn").transform;
+    }
+
     public void TakeDamage(int damage)
     {
         stats.health -= damage;
         if (stats.health <= 0)
         {
             animator.SetBool("isDead", true);
-            gameOver.EndGame();
+            Invoke("EndGame", 1);
+            mov.GetComponent<PlayerMovement>().enabled = false;
         }
+    }
+
+    public void EndGame()
+    {
+        playerPos.position = new Vector3(spawnPoint.position.x, spawnPoint.position.y, spawnPoint.position.z);
+        mov.GetComponent<PlayerMovement>().enabled = true;
+        animator.SetBool("isDead", false);
+
+        stats.health = 3;
     }
 
     public void Heal(int healthRestore)

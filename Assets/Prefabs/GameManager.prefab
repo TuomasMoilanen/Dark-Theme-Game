@@ -45,4 +45,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   limitedFPS: 60
-  sceneNum: 1
+  fullGameLaunch: 0
