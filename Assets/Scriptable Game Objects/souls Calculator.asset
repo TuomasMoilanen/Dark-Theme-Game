@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d66cce7a463ee44ea698422c53f87d7, type: 3}
-  m_Name: MeleeEnemyStats
+  m_Script: {fileID: 11500000, guid: 497fa22a5b0f3424badb622cae604ebf, type: 3}
+  m_Name: souls Calculator
   m_EditorClassIdentifier: 
-  health: 2
-  damage: 1
-  range: 1
-  attackCooldown: 1
+  soulsCollected: 0

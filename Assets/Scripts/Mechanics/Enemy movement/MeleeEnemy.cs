@@ -21,8 +21,6 @@ public class MeleeEnemy : MonoBehaviour
 
     [SerializeField]
     private int damage = 1;
-    [SerializeField]
-    private BoxCollider2D groundDetectionCollider;
 
     private PlayerHealth playerHealth;
 
@@ -35,7 +33,7 @@ public class MeleeEnemy : MonoBehaviour
     private void Awake()
     {
         anim = GetComponent<Animator>();
-        stats.health = 1; // Sets the health int for this enemy
+        //stats.health = 1; // Sets the health int for this enemy
     }
 
     private void Update()
@@ -63,7 +61,6 @@ public class MeleeEnemy : MonoBehaviour
         if (hit.collider != null)
         {
             playerHealth = hit.transform.GetComponent<PlayerHealth>();
-
         }
 
         return hit.collider != null; // Returns true if raycast found player

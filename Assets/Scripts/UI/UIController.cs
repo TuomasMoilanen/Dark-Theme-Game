@@ -12,7 +12,7 @@ public class UIController : MonoBehaviour
     #endregion
 
     #region Hearts collected
-    private int heartsCol;
+    [SerializeField] private PointsCalculator soulsCol;
     [SerializeField] private TextMeshProUGUI calculator;
     #endregion
 
@@ -32,7 +32,7 @@ public class UIController : MonoBehaviour
             }
 
         Hearts();
-        calculator.text = heartsCol.ToString();
+        calculator.text = soulsCol.soulsCollected.ToString();
     }
 
     public void Hearts()
@@ -65,13 +65,13 @@ public class UIController : MonoBehaviour
 
     public void HeartsCollected()
     {
-        heartsCol++;
+        soulsCol.soulsCollected++;
     }
 
     public void PlayGame()
     {
         SceneManager.LoadScene("Level0_Tutorial");
-        
+        playerStats.health = 3;
     }
 
     public void ResumeGame()

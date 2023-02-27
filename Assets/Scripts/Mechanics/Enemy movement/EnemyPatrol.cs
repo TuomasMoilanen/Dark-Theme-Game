@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 
 public class EnemyPatrol : MonoBehaviour
 {
@@ -18,6 +14,7 @@ public class EnemyPatrol : MonoBehaviour
     private bool movingLeft;
     [SerializeField]
     private Animator anim;
+
 
     private void Awake()
     {
@@ -44,6 +41,7 @@ public class EnemyPatrol : MonoBehaviour
             }
         }
     }
+
     private void DirectionChange()
     {
         movingLeft = !movingLeft;
@@ -51,7 +49,9 @@ public class EnemyPatrol : MonoBehaviour
     private void MoveInDirection(int _direction)
     {
         anim.SetBool("enemyWalk", true);
+
         enemy.localScale = new Vector3(Mathf.Abs(initScale.x) * _direction, initScale.y, initScale.z);
+
         enemy.position = new Vector3(enemy.position.x + Time.deltaTime * _direction * speed, enemy.position.y, enemy.position.z);
     }
 }

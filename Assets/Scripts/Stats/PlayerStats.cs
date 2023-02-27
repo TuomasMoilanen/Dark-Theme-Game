@@ -4,7 +4,7 @@ using UnityEngine;
 public class PlayerStats : ScriptableObject
 {
     [Header("Player health")]
-    public int health = 3;
+    public int health;
 
     private void Update()
     {

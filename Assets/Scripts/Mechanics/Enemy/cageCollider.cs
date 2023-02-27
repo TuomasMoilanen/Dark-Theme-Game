@@ -13,7 +13,6 @@ public class cageCollider : MonoBehaviour
     [SerializeField, Tooltip("Defines mimics spawnable enemy game object.")] private GameObject mimic;
     [SerializeField, Tooltip("Defines mimic soul gameobject.")] private GameObject mimicSoul;
     [SerializeField, Tooltip("Defines souls gameobject.")] private GameObject soul;
-    [SerializeField, Tooltip("Copy this game objects X and Y values to spawn mimic on itself.")] private Vector2 spawnPosition;
     [SerializeField, Tooltip("Defines the desired sound effect.")] private AudioSource audioSource;
     public UIController controller;
 
@@ -24,8 +23,6 @@ public class cageCollider : MonoBehaviour
 
     private void Awake()
     {
-        spawnPosition = transform.position;
-
         if (isEnemy == true)
         {
             mimicSoul.gameObject.SetActive(true);
@@ -89,6 +86,6 @@ public class cageCollider : MonoBehaviour
 
     private void OnSpawnMimic()
     {
-            Instantiate(mimic, spawnPosition, Quaternion.identity);
+        mimic.SetActive(true);
     }
 }
