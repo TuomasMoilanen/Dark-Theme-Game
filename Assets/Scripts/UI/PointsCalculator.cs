@@ -4,6 +4,6 @@ using UnityEngine;
 public class PointsCalculator : ScriptableObject
 {
     public int soulsCollected;
-
+    public int enemiesKilled;
 
 }

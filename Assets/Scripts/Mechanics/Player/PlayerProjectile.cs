@@ -26,4 +26,9 @@ public class PlayerProjectile : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    public void DestroyOnWall()
+    {
+        Destroy(gameObject);
+    }
 }

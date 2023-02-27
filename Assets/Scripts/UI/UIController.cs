@@ -6,21 +6,27 @@ using UnityEngine.UI;
 public class UIController : MonoBehaviour
 {
     #region Health Bar
+    [Header("UI Health bar")]
     [SerializeField] private GameObject heart1;
     [SerializeField] private GameObject heart2;
     [SerializeField] private GameObject heart3;
     #endregion
 
-    #region Hearts collected
+    #region Souls collected
+    [Header("Souls Collected")]
     [SerializeField] private PointsCalculator soulsCol;
     [SerializeField] private TextMeshProUGUI calculator;
     #endregion
 
     #region Menu Navigation
+    [Header("Menu Sources")]
     [SerializeField] private GameObject mainMenu;
     [SerializeField] private GameObject soundMenu;
     #endregion
 
+    [Header("Misc Sources")]
+    public PlayerMovement mov;
+    public PlayerFireProjectile fire;
     public PlayerStats playerStats;
 
     private void Update()
@@ -29,6 +35,8 @@ public class UIController : MonoBehaviour
             {
                 Time.timeScale = 0f;
                 mainMenu.SetActive(true);
+                mov.enabled = false;
+                fire.enabled = false;
             }
 
         Hearts();
@@ -79,6 +87,9 @@ public class UIController : MonoBehaviour
         Time.timeScale = 1f;
         mainMenu.SetActive(false);
         soundMenu.SetActive(false);
+
+        mov.enabled = true;
+        fire.enabled = true;
     }
 
     public void SoundOptions()

@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: d78ad67f823a66a48a74864a136f1d07, type: 2}
-  boxCollider: {fileID: 0}
+  boxCollider: {fileID: 4952727726110688356}
   colliderDistance: 0.5
   playerLayer:
     serializedVersion: 2
@@ -132,6 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: d78ad67f823a66a48a74864a136f1d07, type: 2}
+  pointsCalculator: {fileID: 11400000, guid: 7576c93f9f0614f4594c4f51a1c084a6, type: 2}
 --- !u!50 &8077175108499840634
 Rigidbody2D:
   serializedVersion: 4
@@ -329,4 +330,3 @@ MonoBehaviour:
   enemy: {fileID: 8550096527447310550}
   speed: 3
   anim: {fileID: 8593777386320009517}
-  idleDuration: 0

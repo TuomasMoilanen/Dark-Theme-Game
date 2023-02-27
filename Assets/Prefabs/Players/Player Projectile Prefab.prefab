@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7691553601784586553}
   - component: {fileID: 7691553601784586558}
   - component: {fileID: 7691553601784586559}
+  - component: {fileID: -4161541672545249141}
   m_Layer: 10
   m_Name: Player Projectile Prefab
   m_TagString: BulletPlayer
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 19273937168e8034b9538a57d001772f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -137,4 +138,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  patrol: {fileID: 0}
   damage: 1
+--- !u!114 &-4161541672545249141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7691553601784586556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d441b815f260d445960bbd91e995c76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerTag: Enemy
+  triggerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7691553601784586559}
+        m_TargetAssemblyTypeName: PlayerProjectile, Assembly-CSharp
+        m_MethodName: DestroyOnWall
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  triggerExit:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerStay:
+    m_PersistentCalls:
+      m_Calls: []

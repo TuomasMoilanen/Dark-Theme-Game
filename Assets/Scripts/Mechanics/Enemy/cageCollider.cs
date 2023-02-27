@@ -66,7 +66,7 @@ public class cageCollider : MonoBehaviour
             {
                 triggered = true;
                 // Constructor spawn enemy
-                OnSpawnMimic();
+                Invoke("OnSpawnMimic", 1);
 
                 // Animator evil effect
                 //Animator animator = GetComponent<Animator>();
@@ -77,7 +77,7 @@ public class cageCollider : MonoBehaviour
             if(triggered == true)
             {
                 // Destroy object
-                Destroy(this);
+                Destroy(this, 1);
                 Destroy(gameObject, 2);
                 triggered = false;
             }

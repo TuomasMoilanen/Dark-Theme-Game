@@ -44,6 +44,7 @@ public class EnemyPatrol : MonoBehaviour
 
     private void DirectionChange()
     {
+        anim.SetBool("enemyWalk", true);
         movingLeft = !movingLeft;
     }
     private void MoveInDirection(int _direction)

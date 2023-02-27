@@ -3,26 +3,29 @@ using UnityEngine;
 public class CameraTriggers : MonoBehaviour
 {
     #region Variables
+    [Header("Camera Sources")]
     [Tooltip("Defines the main camera.")]
     public Camera mainCamera;
 
+    [Header("Zoom settings")]
+    [SerializeField]
+    private bool zoomActive;
     [Tooltip("Defines the camera that has desired script.")]
     public CameraScript cam;
-
     [SerializeField]
     [Tooltip("Defines the triggered camera Size. Default Value = 5.")]
     private float zoomSize;
     private float defaultZoomSize = 5;
 
+    [Header("Camera adjust speed")]
     [SerializeField]
     private float speed;
 
+    [Header("Offset")]
     [SerializeField]
     [Tooltip("Defined desired offset for the trigger.")]
     private Vector2 triggeredOffset;
 
-    [SerializeField]
-    private bool zoomActive;
 
     #endregion Variables
 

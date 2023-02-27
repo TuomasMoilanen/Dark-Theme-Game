@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d66cce7a463ee44ea698422c53f87d7, type: 3}
-  m_Name: PatrollingEnemy_1
+  m_Name: PatrollingEnemy_6
   m_EditorClassIdentifier: 
   startingHealth: 2
   health: 2
   damage: 1
   range: 2
-  attackCooldown: 5
+  attackCooldown: 4

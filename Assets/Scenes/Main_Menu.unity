@@ -358,6 +358,26 @@ PrefabInstance:
       value: Exit
       objectReference: {fileID: 0}
     - target: {fileID: 1050058168, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 91271f89d5c0e0a46991adf98a110eec, type: 2}
+    - target: {fileID: 1050058168, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6881202145298933024, guid: 91271f89d5c0e0a46991adf98a110eec, type: 2}
+    - target: {fileID: 1050058168, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4293722024
+      objectReference: {fileID: 0}
+    - target: {fileID: 1821625856, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 91271f89d5c0e0a46991adf98a110eec, type: 2}
+    - target: {fileID: 1821625856, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6881202145298933024, guid: 91271f89d5c0e0a46991adf98a110eec, type: 2}
+    - target: {fileID: 1821625856, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4293722024
       objectReference: {fileID: 0}
@@ -373,14 +393,38 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 74458672088762130, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 91271f89d5c0e0a46991adf98a110eec, type: 2}
+    - target: {fileID: 74458672088762130, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1689592027502269891, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -15.424988
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391542585875840030, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 91271f89d5c0e0a46991adf98a110eec, type: 2}
+    - target: {fileID: 2391542585875840030, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2884696181801654236, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
       propertyPath: m_text
       value: Play
       objectReference: {fileID: 0}
+    - target: {fileID: 2884696181801654236, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 91271f89d5c0e0a46991adf98a110eec, type: 2}
+    - target: {fileID: 2884696181801654236, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6881202145298933024, guid: 91271f89d5c0e0a46991adf98a110eec, type: 2}
     - target: {fileID: 2973057272816805865, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -15.424988
@@ -440,6 +484,14 @@ PrefabInstance:
     - target: {fileID: 4991852099741044787, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 6519867808514306849, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 91271f89d5c0e0a46991adf98a110eec, type: 2}
+    - target: {fileID: 6519867808514306849, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7798097124314247641, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
