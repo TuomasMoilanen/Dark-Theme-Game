@@ -80,6 +80,8 @@ public class UIController : MonoBehaviour
     {
         SceneManager.LoadScene("Level0_Tutorial");
         playerStats.health = 3;
+        soulsCol.soulsCollected = 0;
+        soulsCol.enemiesKilled = 0;
     }
 
     public void ResumeGame()

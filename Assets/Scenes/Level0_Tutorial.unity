@@ -509,10 +509,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cage (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 3283791407389570682, guid: 799a521ba8a2db7439782e093a1f3066, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3283791407389570684, guid: 799a521ba8a2db7439782e093a1f3066, type: 3}
       propertyPath: mimic
       value: 
@@ -525,10 +521,6 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 1006188877}
-    - target: {fileID: 3283791407389570684, guid: 799a521ba8a2db7439782e093a1f3066, type: 3}
-      propertyPath: spawnPosition.x
-      value: 19
-      objectReference: {fileID: 0}
     - target: {fileID: 3283791407389570686, guid: 799a521ba8a2db7439782e093a1f3066, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -571,10 +563,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3283791407389570686, guid: 799a521ba8a2db7439782e093a1f3066, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9100530452753656381, guid: 799a521ba8a2db7439782e093a1f3066, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

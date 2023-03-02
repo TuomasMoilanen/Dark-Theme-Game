@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3283791407389570682, guid: 799a521ba8a2db7439782e093a1f3066, type: 3}
       propertyPath: m_Name
-      value: Cage (4)
+      value: Cage Mimic (4)
       objectReference: {fileID: 0}
     - target: {fileID: 3283791407389570684, guid: 799a521ba8a2db7439782e093a1f3066, type: 3}
       propertyPath: mimic
@@ -8716,7 +8716,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3283791407389570682, guid: 799a521ba8a2db7439782e093a1f3066, type: 3}
       propertyPath: m_Name
-      value: Cage (1)
+      value: Cage Mimic (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3283791407389570684, guid: 799a521ba8a2db7439782e093a1f3066, type: 3}
       propertyPath: mimic
@@ -60279,6 +60279,10 @@ PrefabInstance:
     - target: {fileID: 1140163191185903599, guid: ff343a98193bfcb4fa31dce3c86a4ce8, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1140163191185903600, guid: ff343a98193bfcb4fa31dce3c86a4ce8, type: 3}
+      propertyPath: jumpForce
+      value: 9.2
       objectReference: {fileID: 0}
     - target: {fileID: 1140163191185903601, guid: ff343a98193bfcb4fa31dce3c86a4ce8, type: 3}
       propertyPath: m_RootOrder
