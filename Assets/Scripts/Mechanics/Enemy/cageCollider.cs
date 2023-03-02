@@ -12,8 +12,10 @@ public class cageCollider : MonoBehaviour
     [Header("Sources")]
     [SerializeField, Tooltip("Defines mimics spawnable enemy game object.")] private GameObject mimic;
     [SerializeField, Tooltip("Defines mimic soul gameobject.")] private GameObject mimicSoul;
+    [SerializeField, Tooltip("Defines the desired sound effect.")] private AudioSource mimicSFX;
+
     [SerializeField, Tooltip("Defines souls gameobject.")] private GameObject soul;
-    [SerializeField, Tooltip("Defines the desired sound effect.")] private AudioSource audioSource;
+    [SerializeField, Tooltip("Defines the desired sound effect.")] private AudioSource soulSFX;
     public UIController controller;
 
     private int healthRestore = 1;
@@ -54,7 +56,7 @@ public class cageCollider : MonoBehaviour
                 //Animator animator = GetComponent<Animator>();
 
                 // Make nice sound
-                //audioSource.enabled = true;
+                soulSFX.Play();
 
                 // heals
                 playerHealth.Heal(healthRestore); // adds health to "PlayerStats" scriptable object using "PlayerHealth" script with its "Heal" function
@@ -72,7 +74,7 @@ public class cageCollider : MonoBehaviour
                 //Animator animator = GetComponent<Animator>();
 
                 // Trigger evil sound
-                //audioSource.enabled = true;
+                mimicSFX.Play();
             }
             if(triggered == true)
             {

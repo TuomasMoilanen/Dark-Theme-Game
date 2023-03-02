@@ -11,6 +11,8 @@ public class PlayerHealth : MonoBehaviour
 
     private Animator animator;
 
+    [SerializeField] private AudioSource hitSFX;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -30,6 +32,7 @@ public class PlayerHealth : MonoBehaviour
             animator.SetBool("isDead", true);
             Invoke("EndGame", 1);
             mov.GetComponent<PlayerMovement>().enabled = false;
+            hitSFX.Play();
         }
     }
 

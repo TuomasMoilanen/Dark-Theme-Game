@@ -30,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     [Tooltip("How fast players fall speed picks up.")]
     private float fallMultiplier; // How fast players fall speed picks up
+    [SerializeField] private AudioSource jumpSFX;
 
     [SerializeField]
     [Tooltip("Multiplier on how much player jumps on quick input.")]
@@ -100,6 +101,7 @@ public class PlayerMovement : MonoBehaviour
         {                                              // to make player model move up and down
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             animator.SetBool("jumping", true);
+            jumpSFX.Play();
         }
         if (rb.velocity.y < 0)
         {
