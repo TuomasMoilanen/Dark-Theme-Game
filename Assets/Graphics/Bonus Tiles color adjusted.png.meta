@@ -1,0 +1,563 @@
+fileFormatVersion: 2
+guid: ca5a1a4cdc280bf4f905478e20dc31c5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_0
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2251
+        width: 519
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f81fd190e82fd46898a899590c7218
+      internalID: -96007695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_1
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 2267
+        width: 517
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1365916c17c8174479d23aa2ba9be96b
+      internalID: -2065155292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_2
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 2247
+        width: 519
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9f013b3d2ee67449f824994546754a
+      internalID: 1730826030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_3
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 2251
+        width: 518
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1242d5208b9ccb4e81e77a5addfafbf
+      internalID: -1465751792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_4
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 2267
+        width: 519
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719679886390485449b192d89c389f74
+      internalID: -581100224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_5
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 2267
+        width: 517
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757d24e072a2fcb4b9d1e124005d50f9
+      internalID: -1144285285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1605
+        width: 519
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a87b0fa2b7f2f43a3f97f080e172ce
+      internalID: 2028785696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_7
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1605
+        width: 517
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51823fc2b12cd847bb2edec304935de
+      internalID: -1596080667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_8
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1646
+        width: 520
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d478c4134802742870289ef3431b4b
+      internalID: 212170870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_9
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 1646
+        width: 518
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9449ea5069359488358c8fca33324e
+      internalID: 1398703380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_10
+      rect:
+        serializedVersion: 2
+        x: 2763
+        y: 1640
+        width: 517
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd9b7b80ae710246af8a1ee63c56fb4
+      internalID: 1610567934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_11
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 1640
+        width: 519
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dad551f21c5854ba6d6f13d339be15
+      internalID: -754697874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_12
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 671
+        width: 519
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9eb5526063a8940ba814b30f7c1b49
+      internalID: -1879902823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_13
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 661
+        width: 519
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9aec707deddcbd4cbc3787cf2744f17
+      internalID: 2066959889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_14
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 671
+        width: 520
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97319ba1a0a7271409c5b9ddc30d0a13
+      internalID: 512440299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_15
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 661
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffd198a7e182be4ca27355134ac28ba
+      internalID: 1849510678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_16
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 73
+        width: 519
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5239ca2d8d1e3314888119f205f3c921
+      internalID: 686018393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_17
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 73
+        width: 519
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6edc92b432fa441a69339d89db2df9
+      internalID: -797953653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_18
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 73
+        width: 520
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7da2527e55588444883e7327e7d953c
+      internalID: 1371044223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus Tiles color adjusted_19
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 73
+        width: 520
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c433e391371d54383a33652872ff89
+      internalID: 114299698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bonus Tiles color adjusted_11: -754697874
+      Bonus Tiles color adjusted_18: 1371044223
+      Bonus Tiles color adjusted_19: 114299698
+      Bonus Tiles color adjusted_12: -1879902823
+      Bonus Tiles color adjusted_4: -581100224
+      Bonus Tiles color adjusted_13: 2066959889
+      Bonus Tiles color adjusted_2: 1730826030
+      Bonus Tiles color adjusted_0: -96007695
+      Bonus Tiles color adjusted_9: 1398703380
+      Bonus Tiles color adjusted_16: 686018393
+      Bonus Tiles color adjusted_10: 1610567934
+      Bonus Tiles color adjusted_15: 1849510678
+      Bonus Tiles color adjusted_5: -1144285285
+      Bonus Tiles color adjusted_7: -1596080667
+      Bonus Tiles color adjusted_1: -2065155292
+      Bonus Tiles color adjusted_8: 212170870
+      Bonus Tiles color adjusted_3: -1465751792
+      Bonus Tiles color adjusted_14: 512440299
+      Bonus Tiles color adjusted_17: -797953653
+      Bonus Tiles color adjusted_6: 2028785696
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
