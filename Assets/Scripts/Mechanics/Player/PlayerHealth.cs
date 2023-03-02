@@ -27,12 +27,12 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         stats.health -= damage;
+        hitSFX.Play();
         if (stats.health <= 0)
         {
             animator.SetBool("isDead", true);
             Invoke("EndGame", 1);
             mov.GetComponent<PlayerMovement>().enabled = false;
-            hitSFX.Play();
         }
     }
 
