@@ -26,7 +26,7 @@ public class PlayerFireProjectile : MonoBehaviour
     // Delay coroutine
     IEnumerator Cooldown()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.7f);
         projectileCooldown = false;
     }
 }

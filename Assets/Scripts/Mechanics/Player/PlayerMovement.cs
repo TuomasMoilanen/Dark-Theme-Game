@@ -100,26 +100,30 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded) // Gets keyboard input from 'unity input manager' and translates it into players transform attributes,
         {                                              // to make player model move up and down
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            animator.SetBool("jumping", true);
             jumpSFX.Play();
         }
         if (rb.velocity.y < 0)
         {
             rb.velocity += Vector2.up * Physics.gravity * (fallMultiplier - 1) * Time.deltaTime;
-            animator.SetBool("jumping", false);
-            animator.SetBool("falling", true); ;
+            animator.SetBool("falling", true);
 
         }
         else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
         {
             rb.velocity += Vector2.up * Physics.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
-            animator.SetBool("jumping", true);
+
         }
         if (isGrounded == true)
         {
             animator.SetBool("jumping", false);
             animator.SetBool("falling", false);
         }
+
+        if (rb.velocity.y > 0.2 && !isGrounded)
+        {
+            animator.SetBool("jumping", true);
+        }
+
     }
     private void OnDrawGizmos()
     {

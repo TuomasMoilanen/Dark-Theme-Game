@@ -1097,6 +1097,14 @@ PrefabInstance:
       propertyPath: fire
       value: 
       objectReference: {fileID: 1733641358}
+    - target: {fileID: 74932622, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
+      propertyPath: totalSouls
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086400302, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
+      propertyPath: m_text
+      value: / 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3174774729279299585, guid: 5fc4cc6fc650e6c4990fb88d09557bfc, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -13362,6 +13370,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1140163191185903601, guid: ff343a98193bfcb4fa31dce3c86a4ce8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1140163191185903602, guid: ff343a98193bfcb4fa31dce3c86a4ce8, type: 3}
+      propertyPath: m_Interpolate
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1140163191185903602, guid: ff343a98193bfcb4fa31dce3c86a4ce8, type: 3}
+      propertyPath: m_SleepingMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1140163191185903602, guid: ff343a98193bfcb4fa31dce3c86a4ce8, type: 3}
+      propertyPath: m_CollisionDetection
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
