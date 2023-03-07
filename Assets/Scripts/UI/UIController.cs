@@ -40,7 +40,7 @@ public class UIController : MonoBehaviour
             }
 
         Hearts();
-        calculator.text = soulsCol.soulsCollected.ToString();
+        calculator.text = soulsCol.soulsCollectedLevel.ToString();
     }
 
     public void Hearts()
@@ -73,13 +73,21 @@ public class UIController : MonoBehaviour
 
     public void HeartsCollected()
     {
-        soulsCol.soulsCollected++;
+        soulsCol.soulsCollectedTotal++;
+        soulsCol.soulsCollectedLevel++;
+    }
+
+    public void SoulReset()
+    {
+        soulsCol.soulsCollectedLevel = 0;
     }
 
     public void PlayGame()
     {
         SceneManager.LoadScene("Level0_Tutorial");
         playerStats.health = 3;
+        soulsCol.soulsCollectedTotal = 0;
+        soulsCol.enemiesKilled = 0;
     }
 
     public void ResumeGame()

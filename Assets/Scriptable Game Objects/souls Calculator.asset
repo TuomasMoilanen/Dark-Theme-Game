@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 497fa22a5b0f3424badb622cae604ebf, type: 3}
   m_Name: souls Calculator
   m_EditorClassIdentifier: 
-  soulsCollected: 1
+  soulsCollectedTotal: 0
+  soulsCollectedLevel: 0
   enemiesKilled: 0
