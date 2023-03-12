@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d66cce7a463ee44ea698422c53f87d7, type: 3}
   m_Name: RangeEnemyStats
   m_EditorClassIdentifier: 
+  startingHealth: 3
   health: 3
   damage: 1
   range: 10
