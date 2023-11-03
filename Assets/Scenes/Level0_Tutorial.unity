@@ -13372,18 +13372,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1140163191185903602, guid: ff343a98193bfcb4fa31dce3c86a4ce8, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140163191185903602, guid: ff343a98193bfcb4fa31dce3c86a4ce8, type: 3}
-      propertyPath: m_SleepingMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140163191185903602, guid: ff343a98193bfcb4fa31dce3c86a4ce8, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff343a98193bfcb4fa31dce3c86a4ce8, type: 3}
 --- !u!114 &1733641358 stripped
@@ -15926,7 +15914,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 8
-      m_TileSpriteIndex: 8
+      m_TileSpriteIndex: 16
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -20585,8 +20573,8 @@ Tilemap:
     m_Data: {fileID: 918726218, guid: abda26fa5b9d38543a1484d1f3e844b3, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: -369506285, guid: 916bfcfd87c8ff1499c99ebe66a2ef66, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 4
     m_Data: {fileID: 1229715221, guid: abda26fa5b9d38543a1484d1f3e844b3, type: 3}
   - m_RefCount: 6
@@ -20601,8 +20589,8 @@ Tilemap:
     m_Data: {fileID: -1885923256, guid: 916bfcfd87c8ff1499c99ebe66a2ef66, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -370307376, guid: 916bfcfd87c8ff1499c99ebe66a2ef66, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -369506285, guid: 916bfcfd87c8ff1499c99ebe66a2ef66, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 644
     m_Data:
